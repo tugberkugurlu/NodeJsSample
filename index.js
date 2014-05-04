@@ -1,3 +1,24 @@
+// ## Middleware
+// A short guide to Connect Middleware: http://stephensugden.com/middleware_guide/
+// Express.js Middleware Demystified: http://blog.safaribooksonline.com/2014/03/10/express-js-middleware-demystified/
+
+// ## MVC
+// TODO: Add resources here...
+
+    // #### Routes
+    // TODO: Add resources here...
+
+    // #### Views
+    // TODO: Add resources here...
+
+        // ###### Jade View Engine
+        // TODO: Add resources here...
+
+// ## Static Files
+// TODO: Add resources here...
+
+    // #### Less Integration
+    // TODO: Add resources here...
 var http = require('http'),
     express = require('express'),
     app = express();
