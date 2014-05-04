@@ -1,0 +1,25 @@
+{
+  "name": "NodeJsSample",
+  "version": "0.0.0",
+  "description": "Sample node.js application for a dummy like me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tugberkugurlu/NodeJsSample.git"
+  },
+  "keywords": [
+    "sample"
+  ],
+  "author": "Tugberk Ugurlu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tugberkugurlu/NodeJsSample/issues"
+  },
+  "homepage": "https://github.com/tugberkugurlu/NodeJsSample",
+  "dependencies": {
+    "express": "^4.1.1"
+  }
+}
