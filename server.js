@@ -1,3 +1,6 @@
+// ## NodeJs
+// https://speakerdeck.com/laughinglarkllc/node-js
+
 // ## Middleware
 // A short guide to Connect Middleware: http://stephensugden.com/middleware_guide/
 // Express.js Middleware Demystified: http://blog.safaribooksonline.com/2014/03/10/express-js-middleware-demystified/
@@ -12,7 +15,8 @@
     // TODO: Add resources here...
 
         // ###### Jade View Engine
-        // TODO: Add resources here...
+        // http://jade-lang.com/
+        // http://clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus
 
 // ## Static Files
 // TODO: Add resources here...
@@ -36,6 +40,12 @@ app.use(function(req, res, next) {
 
 app.get('/', function (req, res) {
     res.send('Hello World!');
+});
+
+app.get('/jade', function(req, res) {
+    res.render('index', {
+        title: 'Hello Jade View Engine...'
+    });
 });
 
 app.get('/help', function (req, res) {
